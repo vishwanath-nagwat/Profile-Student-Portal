@@ -1,0 +1,78 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f2f9ff;
+  margin: 0;
+  
+}
+
+header {
+  background: #007bff;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: #222;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+nav a:hover, .active {
+  background: #0056b3;
+  border-radius: 5px;
+}
+
+.feedback-form {
+  max-width: 500px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.feedback-form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.feedback-form input, .feedback-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.feedback-form button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 25px;
+  width: 100%;
+}
+
+.feedback-form button:hover {
+  background: #0056b3;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
